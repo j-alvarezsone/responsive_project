@@ -1,9 +1,3 @@
-```diff
-+ this will be highlighted in green
-- this will be highlighted in red
-```
-- ![#f03c15] `esto es una prueba`
+# Curso de responsive project y practica de GitHub desde el terminal.
 
-+ hola
-- hey
-# responsive_project
+![#f03c15](https://placehold.it/15/hola/000000?text=+) `#f03c15 red`
