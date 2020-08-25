@@ -59,7 +59,8 @@ figure {
 }
 
 .container {
-  width: 1000px;
+  max-width: 1000px;
+  flex: 1;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -76,6 +77,7 @@ figure {
   justify-content: space-between;
   height: 70px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo_image {
@@ -114,11 +116,11 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero_image {
   object-fit: cover;
-  margin-top: 5px;
 }
 
 /* ********* sección portafolio start ********* */
@@ -137,10 +139,11 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.project_detail {
-  width: 500px;
+.project_details {
+  width: 50%;
 }
 
 .project_title {
@@ -163,8 +166,12 @@ figure {
   font-family: 'Fjalla One', sans-serif;
 }
 
+.project_imageContainer {
+  width: 50%;
+}
+
 .project_image {
-  width: 500px;
+  max-width: 100%;
 }
 
 /* ********* sección eventos start ********* */
@@ -177,15 +184,15 @@ figure {
 }
 
 .event {
-  margin: 10px;
-  width: 470px;
+  margin: 1%;
+  width: 48%;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
   background-color: #f4fbff;
 }
 
-.event img {
+.event_image {
   width: 480px;
   height: 200px;
   object-fit: cover;
@@ -219,6 +226,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .form_email input {
@@ -242,11 +250,11 @@ figure {
   border: 1px solid;
   width: 100px;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .form_email h3 {
   font-family: 'Roboto Slab', serif;
+  margin-top: 0;
 }
 
 .social_link {
@@ -276,6 +284,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer_image {

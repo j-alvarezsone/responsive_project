@@ -1,0 +1,199 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 1em;
+  }
+
+  /* principal start*/
+  .hero {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2em;
+  }
+
+  h1 {
+    font-size: 2em;
+    z-index: 2;
+  }
+
+  .hero figure {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .hero_image {
+    width: 100%;
+    object-position: 0 20%;
+  }
+  /* principal end*/
+
+  /* event start*/
+  .event_image {
+    object-position: 0 20%;
+  }
+  /* event end*/
+}
+
+@media screen and (max-width: 767px) {
+  /* Nav start*/
+  .header {
+    display: block;
+    height: auto;
+  }
+
+  .header ol {
+    display: block;
+  }
+
+  .header ol li {
+    height: 50px;
+  }
+
+  .header a {
+    justify-content: center;
+  }
+
+  .header .logo {
+    text-align: center;
+  }
+  /* Nav end*/
+
+  /* principal start*/
+  .hero {
+    height: auto;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 2em;
+    z-index: 2;
+  }
+
+  .hero figure {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .hero_image {
+    object-position: 0 20%;
+  }
+  /* principal end*/
+
+  /* portafolio start*/
+  .project {
+    display: block;
+  }
+
+  .project_details {
+    width: auto;
+    font-size: 16px;
+  }
+
+  .project_title {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+  }
+
+  .project_course {
+    font-size: 0.7em;
+  }
+
+  .project_date {
+    font-size: 1em;
+  }
+
+  .project_url {
+    font-size: 1em;
+  }
+
+  .project_course,
+  .project_date,
+  .project_url {
+    margin: 0.3em 0;
+  }
+
+  .project_description {
+    font-size: 0.8em;
+  }
+
+  .project_imageContainer {
+    width: auto;
+    text-align: center;
+  }
+  /* portafolio end*/
+
+  /* eventos start*/
+  .event {
+    width: auto;
+    flex-shrink: initial;
+  }
+
+  .event_image {
+    width: 100%;
+    object-position: 0 20%;
+  }
+
+  .event_detail {
+    /* por defecto es 16px */
+    margin: -2em 0.5em 0.5em;
+    padding: 1em;
+  }
+  /* eventos start*/
+}
+
+@media screen and (max-width: 480px) {
+  /* principal start*/
+  h1 {
+    font-size: 1.5em;
+  }
+  /* principal end*/
+
+  /* portafolio start*/
+  .project_details {
+    font-size: 12px;
+  }
+  /* portafolio end*/
+
+  /* contacto start*/
+  .contact {
+    height: auto;
+    padding: 1em 0;
+    display: block;
+    text-align: center;
+  }
+
+  .form_email h3 {
+    margin-top: 0;
+  }
+
+  .form_email button {
+    margin: 1em auto;
+  }
+  /* contacto end*/
+
+  /* footer start*/
+  .footer {
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+  }
+  /* footer end*/
+}
+
+@media screen and (max-width: 320px) {
+  /* principal start*/
+  .hero {
+    padding: 2em 1em;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+  /* principal end*/
+}
