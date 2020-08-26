@@ -38,6 +38,12 @@
 }
 
 @media screen and (max-width: 767px) {
+  /* Burger menu start*/
+  .burger_button {
+    display: block !important;
+  }
+  /* Burger menu end*/
+
   /* Nav start*/
   .header {
     display: block;
@@ -54,10 +60,32 @@
 
   .header a {
     justify-content: center;
+    height: 40px;
+    font-size: 2em;
+    margin-bottom: 0.5em;
   }
 
   .header .logo {
     text-align: center;
+  }
+
+  .menu {
+    position: fixed;
+    background-color: rgba(5, 111, 255, 0.9);
+    z-index: 3;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    /* height: 100vh; */
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+
+  .menu.is_active {
+    left: 0;
   }
   /* Nav end*/
 
@@ -148,6 +176,13 @@
 }
 
 @media screen and (max-width: 480px) {
+  /* nav start*/
+
+  .header a {
+    font-size: 1.3em;
+  }
+  /* nav end*/
+
   /* principal start*/
   h1 {
     font-size: 1.5em;
@@ -187,6 +222,13 @@
 }
 
 @media screen and (max-width: 320px) {
+  /* nav start*/
+
+  .header a {
+    font-size: 1em;
+  }
+  /* nav end*/
+
   /* principal start*/
   .hero {
     padding: 2em 1em;
